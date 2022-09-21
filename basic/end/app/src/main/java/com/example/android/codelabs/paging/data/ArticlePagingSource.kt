@@ -42,7 +42,7 @@ class ArticlePagingSource : PagingSource<Int, Article>() {
         // We fetch as many articles as hinted to by params.loadSize
         val range = startKey.until(startKey + params.loadSize)
 
-        // Simulate a delay for loads adter the initial load
+        // Simulate a delay for loads after the initial load
         if (startKey != STARTING_KEY) delay(LOAD_DELAY_MILLIS)
         return LoadResult.Page(
             data = range.map { number ->

@@ -39,6 +39,11 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 
+/**
+ * Link of CodeLab
+ * https://developer.android.com/codelabs/android-paging#1
+ * */
+
 class SearchRepositoriesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
