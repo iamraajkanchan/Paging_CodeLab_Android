@@ -25,6 +25,7 @@ import com.google.gson.annotations.SerializedName
  * Objects of this type are received from the Github API, therefore all the fields are annotated
  * with the serialized name.
  * This class also defines the Room repos table, where the repo [id] is the primary key.
+ * The same class is used for Paging Source and Room Database.
  */
 @Entity(tableName = "repos")
 data class Repo(

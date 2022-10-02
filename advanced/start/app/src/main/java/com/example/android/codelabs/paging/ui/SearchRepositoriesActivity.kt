@@ -34,6 +34,11 @@ import com.example.android.codelabs.paging.Injection
 import com.example.android.codelabs.paging.databinding.ActivitySearchRepositoriesBinding
 import com.example.android.codelabs.paging.model.RepoSearchResult
 
+/**
+ * Link of CodeLab
+ * https://developer.android.com/codelabs/android-paging#1
+ * */
+
 class SearchRepositoriesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
